@@ -1,39 +1,41 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Book Store</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <title>Contact - BookBite</title>
+    <link rel="stylesheet" href="C:\sub11\TechM\book-store\styles\styles.css">
 </head>
 <body>
     <header>
-        <h1>Contact Us</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="books.html">Books</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">BookBite</div>
     </header>
-    <main>
-        <section class="contact-form">
+    <nav>
+        <div class="container nav-links">
+            <a href="index.html">Home</a>
+            <a href="books.html">Books</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="contact-form">
+            <h2>Contact Us</h2>
             <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+                
                 <button type="submit">Submit</button>
             </form>
-        </section>
-    </main>
+        </div>
+    </div>
     <footer>
-        <p>&copy; 2025 Book Store. All rights reserved.</p>
+        <p>&copy; 2025 BookBite. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
