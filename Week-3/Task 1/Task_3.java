@@ -1,6 +1,6 @@
 import java.util.Objects;
 
-public class EqualsVsDeepEquals { 
+public class Task_3 { 
   public static void main(String[] args) { 
     Integer[] arr1 = {1, 2, 3}; 
     Integer[] arr2 = {1, 2, 3}; 
