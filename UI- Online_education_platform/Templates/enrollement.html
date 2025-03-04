@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Website</title>
+    <link rel="stylesheet" href="C:\Users\saipr\Desktop\Edu-Website\Style\enrollment.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">EduLearn</div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="C:\Users\saipr\Desktop\Edu-Website\Templates\Home.html">Home</a></li>
+                <li><a href="C:\Users\saipr\Desktop\Edu-Website\Templates\courses.html">Courses</a></li>
+                <li><a href="C:\Users\saipr\Desktop\Edu-Website\Templates\instructors.html">Instructors</a></li>
+                <li><a href="C:\Users\saipr\Desktop\Edu-Website\Templates\enrollement.html">Enrollment</a></li>
+            </ul>
+            <div class="menu-toggle" id="menu-toggle">☰</div>
+        </nav>
+    </header>
+    
+    <section id="enrollment" class="enrollment">
+        <h2>Course Enrollment</h2>
+        <form id="enrollment-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+            
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="course">Select Course:</label>
+            <select id="course" name="course" required>
+                <option value="web-development">Web Development</option>
+                <option value="data-science">Data Science</option>
+                <option value="cybersecurity">Cybersecurity</option>
+                <option value="ai">Artificial Intelligence</option>
+                <option value="mobile-app">Mobile App Development</option>
+                <option value="cloud-computing">Cloud Computing</option>
+            </select>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 EduLearn. All Rights Reserved.</p>
+    </footer>
+    <script src="C:\Users\saipr\Desktop\Edu-Website\JS\instructors.js"></script>
+
+    <script>
+        document.getElementById("enrollment-form").addEventListener("submit", function(event) {
+            event.preventDefault();
+            const name = document.getElementById("name").value;
+            const age = document.getElementById("age").value;
+            const phone = document.getElementById("phone").value;
+            const email = document.getElementById("email").value;
+            const course = document.getElementById("course").value;
+            
+            alert(`Successfully Submitted!\nName: ${name}\nAge: ${age}\nPhone: ${phone}\nEmail: ${email}\nCourse: ${course}`);
+        });
+    </script>
+
+</body>
+</html>
