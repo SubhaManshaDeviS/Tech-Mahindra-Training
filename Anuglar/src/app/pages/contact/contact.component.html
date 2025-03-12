@@ -1,0 +1,38 @@
+<div class="contact-container">
+    <div class="contact-card">
+      <h2>Contact Me</h2>
+      <p>I'd love to hear from you! Feel free to reach out.</p>
+  
+      <form (submit)="submitForm()">
+        <!-- Name Input -->
+        <div class="input-group">
+          <input type="text" id="name" [(ngModel)]="name" name="name" required />
+          <label for="name">Your Name</label>
+        </div>
+  
+        <!-- Email Input -->
+        <div class="input-group">
+          <input type="email" id="email" [(ngModel)]="email" name="email" required />
+          <label for="email">Your Email</label>
+        </div>
+  
+        <!-- Message Input -->
+        <div class="input-group">
+          <textarea id="message" rows="4" [(ngModel)]="message" name="message" required></textarea>
+          <label for="message">Your Message</label>
+        </div>
+  
+        <!-- Success & Error Messages -->
+        <div *ngIf="successMessage" class="alert alert-success">
+          {{ successMessage }}
+        </div>
+        <div *ngIf="errorMessage" class="alert alert-danger">
+          {{ errorMessage }}
+        </div>
+  
+        <!-- Submit Button -->
+        <button type="submit" class="send-btn">Send Message</button>
+      </form>
+    </div>
+  </div>
+  
