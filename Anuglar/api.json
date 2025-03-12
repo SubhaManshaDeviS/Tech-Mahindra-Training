@@ -1,0 +1,62 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "Sentiment Analysis Using BERT",
+      "description": "BERT-based sentiment analysis model for NLP tasks.",
+      "category": "AI",
+      "image": "http://localhost:8090/images/senti.png",
+      "tags": [
+        "Python",
+        "BERT",
+        "NLP"
+      ],
+      "link": "https://github.com/yourgithub/sentiment-analysis"
+    },
+    {
+      "id": "2",
+      "title": "Suicidal Post Detection in Social Media",
+      "description": "Detects posts indicating suicidal tendencies.",
+      "category": "Data Science",
+      "image": "http://localhost:8090/images/soci.png",
+      "tags": [
+        "Machine Learning",
+        "Python",
+        "Social Media"
+      ],
+      "link": "http://localhost/soci.png"
+    },
+    {
+      "id": "3",
+      "title": "Instagram Analysis for Reach Level",
+      "description": "Understanding Instagram’s algorithm and reach levels.",
+      "category": "Web",
+      "image": "http://localhost:8090/images/insta.png",
+      "tags": [
+        "Analytics",
+        "Data Visualization"
+      ],
+      "link": "https://github.com/yourgithub/instagram-analysis"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "47c3",
+      "name": "Subha",
+      "email": "subha@gmail.com",
+      "message": "i am testing this application. heyyy"
+    },
+    {
+      "id": "a230",
+      "name": "sumit",
+      "email": "sumit@gmail.com",
+      "message": "cheching"
+    },
+    {
+      "id": "6218",
+      "name": "sai",
+      "email": "sai@gmail.com",
+      "message": "heyyyyyy"
+    }
+  ]
+}
