@@ -1,0 +1,39 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "Sentiment Analysis Using BERT",
+            "body": "Fine-tuning BERT for sentiment analysis."
+        },
+        {
+            "id": 2,
+            "title": "Suicidal Post Detection in Social Media",
+            "body": "Detects posts indicating suicidal thoughts/tendencies."
+        },
+        {
+            "id": 3,
+            "title": "Instagram Analysis for Reach Level",
+            "body": "Analyzes how the Instagram algorithm works."
+        },
+        {
+            "id": 4,
+            "title": "E-commerce Website",
+            "body": "Built a fully functional e-commerce website using React and Node.js."
+        },
+        {
+            "id": 5,
+            "title": "Chat Application",
+            "body": "A real-time chat application using WebSockets."
+        }
+    ],
+      
+      
+  "contacts": [
+        {
+            "id": "6069",
+            "name": "subha",
+            "email": "subha@gmail.com",
+            "message": "checking"
+        }
+    ]
+}
